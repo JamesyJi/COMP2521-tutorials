@@ -1,1 +1,3 @@
 # COMP2521-tutorials
+
+WEDNESDAY 3PM G052
