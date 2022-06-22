@@ -21,8 +21,8 @@ int BSTreeHeight(BSTree t) {
     }
 
 
-    // delegate to subtrees to get max height
-    // 1 + that
+    // Figure out maximum height of the subtrees
+    // Add 1 to that height
     int lh = BSTreeHeight(t->left);
     int rh = BSTreeHeight(t->right);
     int max = lh;
